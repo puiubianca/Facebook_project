@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/9914e7ebb7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style001.css">
+  <title>Facebook page</title>
+</head>
+
+<body>
+  <header class="header-bar">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-sm-2 col-md-6 col-lg-6 align-self-center col__hr-align">
+          <div class="row">
+            <div class="col-2 col-sm-1 col-md-1 col-lg-1 align-self-center">
+              <img src="img/Logo.png" alt="Facebook logo">
+            </div>
+            <div class="input-group rounded header--search-bar col-sm-1 col-md-1 col-lg-10 align-self-center">
+              <input type="search" class="form-control rounded right--section-row-first" placeholder="Unblast : Free Design Resources" aria-label="Search" aria-describedby="search-addon" />
+              <span class="input-group-text right--section-row-first" id="search-addon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2 col-md-6 col-lg-6 align-self-center col__hr-align d-flex justify-content-end">
+          <div class="row">
+           <div class="col-sm-12 col-md-12 col-lg-12 align-self-center flex-align_items flex-align_items--end desktop--padding">
+              <img src="img/Profile-Picture.png" alt="Profile logo">
+              <p class="header_text white">Unblast</p>
+          <!--   </div> -->
+          <!--   <div class="col-sm-1 col-md-1 col-lg-8 align-self-center"> -->
+              <p class="header_text white">Home</p>
+              <i class="fas fa-xl fa-user-friends p-1"></i>
+              <i class="fab fa-xl fa-facebook-messenger p-1"></i>
+              <i class="fa fa-globe fa-xl white p-1" aria-hidden="true" style="font-size:1.5rem;"></i>
+              <!--    <span class="badge rounded-pill badge-notification bg-danger">14</span> -->
+          <!--   </div> -->
+          <!--   <div class="col-sm-1 col-md-1 col-lg-2 align-self-center p-1 flex-align_items flex-align_items--start"> -->
+              <i class="fa fa-question-circle fa-xl p-1" aria-hidden="true" style="font-size:1.5rem;"></i>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary expand-items dropdown-toggle header--button-dropdown" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="#">Option 1</a></li>
+                  <li><a class="dropdown-item" href="#">Option 2</a></li>
+                  <li><a class="dropdown-item" href="#">Option 3</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="row gx-0">
+      <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+        <div class="left--section-img text-center">
+          <img class="img-fluid" src="img/Rectangle-3-copy.png" alt="Cover-Image">
+        </div>
+        <div class="m-lg-5 mt-lg-3">
+          <p class="left--section-profile-title m-lg-1">Unblast</p>
+          <p class="m-lg-1">@unblast</p>
+          <div class="text-left d-grid left--section-button mt-lg-2">
+            <button class="btn btn-primary" type="button">Home</button>
+            <button class="btn btn-primary" type="button">About</button>
+            <button class="btn btn-primary" type="button">Photos</button>
+            <button class="btn btn-primary" type="button">Reviews</button>
+            <button class="btn btn-primary" type="button">Events</button>
+            <button class="btn btn-primary" type="button">Posts</button>
+            <button class="btn btn-primary" type="button">Community</button>
+          </div>
+          <button class="btn btn-primary left--section-last-button" type="button">Create a page</button>
+        </div>
+      </div>
+      <div class="col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+        <div>
+          <img class="img-fluid" src="img/Cover-Image.png" alt="Cover-Image">
+        </div>
+        <div class="gx-0">
+          <div class="row justify-content-between gx-0 buttons--section-row p-2">
+            <div class="col-md-12">
+
+              <div class="btn-group social--section-button flex-align_items" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-primary bold-item md-size-text"><i style="font-size:16px; padding:5px;" class="fa-solid fa-thumbs-up"></i>Like</button>
+                <button type="button" class="btn btn-primary bold-item md-size-text"><i style="font-size:16px; padding:5px;" class="fa-solid fa-rss"></i>Follow</button>
+                <button type="button" class="btn btn-primary bold-item md-size-text"><i style="font-size:16px; padding:5px;" class="fas">&#xf064;</i>Share</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-primary expand-items" data-bs-toggle="dropdown" aria-expanded="false">...</button>
+                  <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-12 text-lg-end">
+              <a class="btn btn-primary button-learn-more" style="background-color: #3b5998;" href="https://www.facebook.com/unblast/about/?ref=page_internal" role="button">Learn More</a>
+              <a class="btn btn-primary button-learn-more" style="background-color: #55acee;" href="https://www.facebook.com/unblast/" role="button">
+                <i style="padding: 0 5px;" class='fab fa-facebook-messenger'></i>Send Message</a>
+            </div>
+          </div>
+          <div class="row main--section-row">
+            <div class="col-md-7 col-lg-7">
+              <div class="row status--section-row mt-lg-4 mb-lg-4 gx-0 p-2">
+                <div class="col-md-12">
+                  <div class="flex-align_items justify-content-between border--bottom-item">
+                    <div class="flex-align_items flex-align_items--start">
+                      <img class="img-fluid p-1" width="25%" src="img/Pencil.png" alt="Pencil logo">
+                      <p class="p-1 md-size-text">Status</p>
+                    </div>
+                    <div class="flex-align_items flex-align_items--end">
+                      <img class="img-fluid p-1" width="8%" src="img/Rectangle-3-copy.png" alt="Pencil logo">
+                      <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                          <li><a class="dropdown-item" href="#">Option 1</a></li>
+                          <li><a class="dropdown-item" href="#">Option 2</a></li>
+                          <li><a class="dropdown-item" href="#">Option 3</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex-align_items">
+                    <div class="status--section-img">
+                      <img class="img-fluid" src="img/Rectangle-3-copy.png" alt="Cover-Image">
+                    </div>
+                    <div class="input-group rounded">
+                      <input style="font-size:14px;" type="search" class="form-control rounded right--section-row-first" placeholder="Write something on this Page..." aria-label="Search" aria-describedby="search-addon" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row gx-0 posts--section-row p-lg-3">
+                <div class="col-md-12">
+                  <p class="bold-item p-2">Posts</p>
+                  <div class="border">
+                    <div class="flex-align_items p-1">
+                      <div class="status--section-img p-1">
+                        <img class="img-fluid" src="img/Rectangle-3-copy.png" alt="Cover-Image">
+                      </div>
+                      <div>
+                        <a class="bold-item p-1" href="https://www.facebook.com/unblast/" target="_blank">Unblast</a>
+                        <p class="sm-size-text p-1">18 hrs</p>
+                      </div>
+                    </div>
+                    <p class="post-text">Your post message text goes in this area, you can edit it easily according to your needs, enjoy.</p>
+                    <div>
+                      <img class="img-fluid" src="img/Post-Image.png" alt="">
+                    </div>
+
+                    <div class="btn-group posts--section-button flex-align_items" role="group" aria-label="Button group with nested dropdown">
+                      <button type="button" class="btn btn-primary bold-item md-size-text"><i style="font-size:16px; padding:5px;" class="fa">&#xf087;</i>Like</button>
+                      <button type="button" class="btn btn-primary bold-item md-size-text"><i style="font-size:16px; padding:5px;" class="far">&#xf27a;</i>Comment</button>
+                      <button type="button" class="btn btn-primary bold-item md-size-text"><i style="font-size:16px; padding:5px;" class="fas">&#xf064;</i>Share</button>
+                      <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                          <li><a class="dropdown-item" href="#">Option 1</a></li>
+                          <li><a class="dropdown-item" href="#">Option 2</a></li>
+                          <li><a class="dropdown-item" href="#">Option 3</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="border p-1">
+                      <i style="font-size:14px; color: #4483fb; padding: 10px;" class="fas">&#xf164;</i><span style="font-size:14px; padding: 10px 0px;">82</span>
+                    </div>
+
+                    <div class="flex-align_items border p-1">
+                      <div class="status--section-img p-1">
+                        <img class="img-fluid" src="img/Rectangle-3-copy.png" alt="Cover-Image">
+                      </div>
+                      <div class="input-group main-section-input-form">
+                        <input style="font-size:14px;" type="search" class="form-control right--section-row-first" placeholder="Write a comment.." aria-label="Search" aria-describedby="search-addon" />
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right section start -->
+            <div class="col-md-5 col-lg-5 gx-0 mt-lg-4 mb-lg-4">
+
+              <!-- Right section first item -->
+              <div class="right--section-row mb-lg-3 p-lg-2">
+                <div class="input-group rounded">
+                  <span class="input-group-text right--section-row-first" id="search-addon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </span>
+                  <input style="font-size:14px;" type="search" class="form-control rounded right--section-row-first" placeholder="Search for posts on this Page" aria-label="Search" aria-describedby="search-addon" />
+                </div>
+              </div>
+
+              <!-- Right section second item -->
+              <div class="right--section-row mt-lg-3 mb-lg-2 p-lg-3">
+                <div class="right--section-row-community">
+                  <p class="bold-item community-title">Community</p>
+                  <p><a href="https://www.facebook.com/unblast/about" target="_blank">See All</a></p>
+                </div>
+                <div class="right--section-row-community">
+                  <img class="img-fluid" src="img/invite-friends.png" alt="invite friends logo">
+                  <p><a href="https://www.facebook.com/unblast/?ref=page_internal" target="_blank">Invite your friends</a> to like this Page</p>
+                </div>
+                <div class="right--section-row-community">
+                  <img class="img-fluid" src="img/like-button.png" alt="invite friends logo">
+                  <p>107,476 people like this</p>
+                </div>
+                <div class="right--section-row-community">
+                  <img class="img-fluid" src="img/feed-icon.png" alt="invite friends logo">
+                  <p>99,000 people follow this</p>
+                </div>
+                <div class="right--section-row-community">
+                  <img class="img-fluid" src="img/friends-icon.png" alt="invite friends logo">
+                  <p><a href="https://www.facebook.com/sara.helwe.arts">Sara Helwe</a> likes This</p>
+                </div>
+              </div>
+
+              <!-- Right section third item -->
+              <div class="right--section-row mt-lg-3 mb-lg-2 p-lg-2">
+                <div class="right--section-row-community">
+                  <p class="bold-item community-title">About</p>
+                  <p><a href="https://www.facebook.com/unblast/about" target="_blank">See All</a></p>
+                </div>
+                <div class="right--section-row-community">
+                  <img class="img-fluid" src="img/messenger-icon.png" alt="invite friends logo">
+                  <p><a href="https://www.facebook.com/unblast/" target="_blank">Contact Unblast on Messenger</a></p>
+                </div>
+                <div class="right--section-row-community">
+                  <img class="img-fluid" src="img/education-icon.png" alt="invite friends logo">
+                  <p><a
+                      href="https://www.facebook.com/search/?bqf=str%2FEduca%25C5%25A3ie%2Fkeywords_pages&ref=page_about_category&f=AbpBP3c5TcnwHmRiUZZ5J1-eLrwpRYCbGR4hs20ORC0T1BMLXsGsASlz-RB52Rjcf_vvZKkqeRofIrrBLKG0EVn7GNx6o6Ha0xzfLNKAKixhATywLHhsKnBmsOgMTSyBidk"
+                      target="_blank">Education</a></p>
+                </div>
+              </div>
+
+              <!-- Right section fourth item -->
+              <div class="right--section-row mt-lg-2 mb-lg-3 p-lg-2">
+                <div class="right--section-row-community border--bottom-item">
+                  <p class="bold-item community-title">People</p>
+                  <p class="community-title"><a href="https://www.facebook.com/unblast/reviews/?ref=page_internal" target="_blank">&#62;</a></p>
+                </div>
+                <p class="text-center mt-lg-2 mb-lg-2 p-lg-2">107k <span class="community-title">likes</span></p>
+              </div>
+
+              <!-- Right section fifth item -->
+              <div class="right--section-row mt-lg-2 mb-lg-2 p-lg-2">
+                <div class="right--section-row-community border--bottom-item">
+                  <p class="bold-item community-title">Pages liked by this page</p>
+                  <p class="community-title"><a href="https://www.facebook.com/unblast/reviews/?ref=page_internal" target="_blank">&#62;</a></p>
+                </div>
+                <div class="right--section-row-community right--section-row-pages">
+                  <img class="img-fluid" src="img/Artists-icon.png" alt="invite friends logo">
+                  <p class="community-title bold-item width-item">Artists</p>
+                  <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle like--button-before-item" data-bs-toggle="dropdown" aria-expanded="false"> Liked </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <li><a class="dropdown-item" href="#">Option 1</a></li>
+                      <li><a class="dropdown-item" href="#">Option 2</a></li>
+                      <li><a class="dropdown-item" href="#">Option 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="right--section-row-community right--section-row-pages">
+                  <img class="img-fluid" src="img/Developers-icon.png" alt="invite friends logo">
+                  <p class="community-title bold-item width-item">Developers</p>
+                  <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle like--button-before-item" data-bs-toggle="dropdown" aria-expanded="false"> Liked </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <li><a class="dropdown-item" href="#">Option 1</a></li>
+                      <li><a class="dropdown-item" href="#">Option 2</a></li>
+                      <li><a class="dropdown-item" href="#">Option 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="right--section-row-community right--section-row-pages">
+                  <img class="img-fluid" src="img/Designers-icon.png" alt="invite friends logo">
+                  <p class="community-title bold-item width-item">Designers</p>
+                  <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle like--button-before-item" data-bs-toggle="dropdown" aria-expanded="false"> Liked </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <li><a class="dropdown-item" href="#">Option 1</a></li>
+                      <li><a class="dropdown-item" href="#">Option 2</a></li>
+                      <li><a class="dropdown-item" href="#">Option 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Right section end -->
+
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
